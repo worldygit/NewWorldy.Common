@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewWorldy.Common.WorldOfWarcraft", "src\NewWorldy.Common.WorldOfWarcraft\NewWorldy.Common.WorldOfWarcraft.csproj", "{F09781E1-D147-4E33-B110-9DBFB58489C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewWorldy.Common.WorldOfWarcraft.Interrupt", "src\NewWorldy.Common.WorldOfWarcraft.Interrupt\NewWorldy.Common.WorldOfWarcraft.Interrupt.csproj", "{301C05BC-6EE3-4CAC-8923-7AD1C12C3898}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorldOfWarcraft", "WorldOfWarcraft", "{2F97F2F4-FBA2-4957-9E8E-0E502A1443F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F09781E1-D147-4E33-B110-9DBFB58489C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09781E1-D147-4E33-B110-9DBFB58489C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09781E1-D147-4E33-B110-9DBFB58489C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09781E1-D147-4E33-B110-9DBFB58489C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301C05BC-6EE3-4CAC-8923-7AD1C12C3898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301C05BC-6EE3-4CAC-8923-7AD1C12C3898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301C05BC-6EE3-4CAC-8923-7AD1C12C3898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301C05BC-6EE3-4CAC-8923-7AD1C12C3898}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F09781E1-D147-4E33-B110-9DBFB58489C7} = {2F97F2F4-FBA2-4957-9E8E-0E502A1443F3}
+		{301C05BC-6EE3-4CAC-8923-7AD1C12C3898} = {2F97F2F4-FBA2-4957-9E8E-0E502A1443F3}
+	EndGlobalSection
+EndGlobal
